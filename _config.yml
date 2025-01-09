@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Shiyu Wan's Personal Website"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Shiyu Wan"
+description              : &description "Ph.D. Student in Biostatistics at University of Washington"
 url                      : https://ShiyuWAN3.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ShiyuWAN3/ShiyuWAN3.github.io"
@@ -22,11 +22,11 @@ repository               : "ShiyuWAN3/ShiyuWAN3.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Shiyu Wan"
+  pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Seattle, WA"
+  employer         : "University of Washington"
   uri              : # URL
   email            : "none@example.org" 
 
