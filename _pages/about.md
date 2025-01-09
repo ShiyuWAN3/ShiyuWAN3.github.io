@@ -10,7 +10,7 @@ redirect_from:
 About Me
 ======
 
-I am a Ph.D student in Biostatistics at the University of Washington. My research focuses on developing statistical and machine learning methods for large-scale genetic and genomic studies. Areas of interest include statistical genetics, Mendelian randomization, single-cell genomics and bioinformatics.
+I am a Ph.D student in Biostatistics at the University of Washington.
 
 I'm interested in developing statistical and machine learning methods for large-scale genomic studies and public health studies.
 
