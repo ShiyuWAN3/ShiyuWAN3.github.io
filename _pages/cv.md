@@ -9,63 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Biostatistics, University of Washington, 2029 (expected)
-* M.S. in Biostatistics, University of North Carolina at Chapel Hill, 2024
-* M.B.B.S. in Preventive Medicine & M.A. in Economics, Peking University, 2022
+<a href="/files/CV_Shiyu_Wan.pdf" class="btn btn--primary" style="margin-bottom: 20px;">Download CV (PDF)</a>
 
-Work experience
-======
-* Independent Research (01/2025 - Present)
-  * University of Washington
-  * Topic: Statistical methods in platform trials
-  * Supervisor: Dr. Ting Ye
+## Summary
 
-* Research Assistant (09/2024 - Present)
-  * Seattle Children's Hospital
-  * Topic: Deep learning in genomics
-  * Supervisor: Dr. Pejman Mohammadi
+PhD candidate in Biostatistics at UW (qualifying exam passed Aug 2025) with an M.S. in Biostatistics from UNC and dual B.Med/B.Econ from Peking University. I develop estimands and inference for master protocol trials and build deep learning approaches for genomic prediction and survival analysis, including supervised fine-tuning of genomic foundation models.
 
-* Research Assistant (10/2022 - 05/2024)
-  * University of North Carolina at Chapel Hill
-  * Topic: Deep learning and feature selection in survival analysis
-  * Supervisor: Dr. Baiming Zou and Dr. Fei Zou
+## Expertise and Skills
 
-* Research Assistant (03/2021 - 08/2022)
-  * Tsinghua University
-  * Topic: Association between greenspace and mortality in U.K. Biobank
-  * Supervisor: Dr. John S. Ji
+* **Research Areas**: Deep learning and statistical methods for genomics and survival analysis; causal inference in master-protocol trials
+* **Methodologies**: Genomic foundation models (Enformer, Borzoi, Nucleotide Transformer); survival deep neural networks; causal inference and semiparametric efficiency theory
+* **Technical Skills**: Python (PyTorch, PyTorch-Lightning, scikit-learn), R (Bioconductor, survival analysis, causal inference packages, tidyverse), High-Performance Computing (Slurm, GPU clusters)
 
-* Research Assistant (07/2020 - 03/2021)
-  * Peking University
-  * Topic: Risk factors and prevalence of toothache in Chinese older adults
-  * Supervisor: Dr. Jue Liu
-  
-Skills
-======
-* R
-* Python
-* HPC (UNIX and SLURM)
+## Research Experience
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Robust Estimation of Treatment Effect in Master Protocol Trials** (01/2025 - Present)
+* Advisor: Professor Ting Ye, UW Seattle. Defined estimands for master protocol trials with re-enrollment and derived influence functions and asymptotic results.
+
+**Benchmarking and Fine-tuning Genomic Language Model in ASE Prediction** (09/2024 - Present)
+* Advisor: Professor Pejman Mohammadi, UW Seattle. Applied parameter-efficient fine-tuning to Enformer and Borzoi for allele-specific expression prediction.
+
+**Feature Importance Identifications of Complex Survival Data** (10/2022 - 05/2024)
+* Advisor: Professor Baiming Zou, UNC Chapel Hill. Developed SurvDNN, a deep neural network framework for survival analysis with feature importance testing.
+
+**Greenspace and Mortality in U.K.** (03/2021 - 08/2022)
+* Advisor: Professor John S. Ji, Tsinghua University. Analyzed greenspace-mortality associations in U.K. Biobank using Cox regression and causal mediation analysis.
+
+**Prevalence of Toothache in Chinese Adults** (07/2020 - 03/2021)
+* Advisor: Professor Jue Liu, Peking University. Analyzed risk factors for toothache in elderly Chinese using modified Poisson regressions.
