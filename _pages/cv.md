@@ -50,14 +50,3 @@ PhD candidate in Biostatistics at UW (qualifying exam passed Aug 2025) with an M
     <em>Incoming Winter 2026</em>
   </div>
 </div>
-
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <div style="width: 80px; height: 60px; margin-right: 20px; flex-shrink: 0; display: flex; align-items: center; justify-content: center;">
-    <img src="/images/bms-logo.png" alt="Bristol Myers Squibb Logo" style="max-width: 80px; max-height: 60px; object-fit: contain;">
-  </div>
-  <div>
-    <strong>Bristol Myers Squibb</strong><br>
-    Biostatistics Intern<br>
-    <em>Incoming Summer 2026</em>
-  </div>
-</div>
