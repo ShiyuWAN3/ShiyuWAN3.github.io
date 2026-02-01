@@ -6,6 +6,30 @@ $(document).ready(function(){
   // These should be the same as the settings in _variables.scss
   scssLarge = 925; // pixels
 
+  // Dark mode toggle functionality
+  var darkModeToggle = document.getElementById('dark-mode-toggle');
+
+  if (darkModeToggle) {
+    darkModeToggle.addEventListener('click', function() {
+      var currentTheme = document.documentElement.getAttribute('data-theme');
+      var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+    });
+  }
+
+  // Listen for system theme changes
+  if (window.matchMedia) {
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+      // Only auto-switch if user hasn't manually set a preference
+      if (!localStorage.getItem('theme')) {
+        var newTheme = e.matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', newTheme);
+      }
+    });
+  }
+
   // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
