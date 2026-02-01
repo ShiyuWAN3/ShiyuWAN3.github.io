@@ -355,18 +355,22 @@ figcaption {
 }
 
 /* Dark mode toggle button */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+}
+
 .dark-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: transparent;
   border: none;
   cursor: pointer;
-  padding: 0.5em;
-  margin-left: 0.5em;
-  font-size: 1.2em;
+  padding: 0.5rem;
+  margin-left: auto;
   color: var(--masthead-link-color);
   transition: color 0.2s ease, transform 0.2s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   &:hover {
     color: var(--link-color);
@@ -380,8 +384,8 @@ figcaption {
 
   .icon--sun,
   .icon--moon {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
   }
 }
 
